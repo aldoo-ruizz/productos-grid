@@ -86,7 +86,7 @@ namespace productos_grid
             bs1.ResetBindings(true);
 
         }
-
+            
         private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form3 formulario3 = new Form3(this);

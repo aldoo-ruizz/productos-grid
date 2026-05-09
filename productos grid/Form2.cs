@@ -17,7 +17,7 @@ namespace productos_grid
     /// </summary>
     public partial class Form2 : Form
     {
-        Form1 objform1;
+        Form1 objform1 = new Form1();
         int idmodifica = 0;
 
         public Form2(Form1 formulario1)
@@ -40,7 +40,8 @@ namespace productos_grid
 
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+
+        private void button1_Click(object sender, EventArgs e)
         {
             constructor resitromodif = new constructor(idmodifica, textBox1.Text, textBox2.Text, textBox3.Text);
             objform1.actualizarregistro(resitromodif);

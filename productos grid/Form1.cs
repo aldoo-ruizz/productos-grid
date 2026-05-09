@@ -49,6 +49,7 @@ namespace productos_grid
             constructor nuevoregistro = new constructor(4, "Maria", "Lopez", "Sanchez");
             lista.Add(nuevoregistro);
             bs1.ResetBindings(false);
+            
         }
 
         private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -64,8 +65,10 @@ namespace productos_grid
 
         private void modificarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 formulario2 = new Form2(this);
-            formulario2.ShowDialog();
+            
+            Form2 frmsegudno = new Form2(this);
+            frmsegudno.MdiParent = this;
+            frmsegudno.Show();
         }
         public constructor obtenerregistroseleccionado()
         {
@@ -89,8 +92,9 @@ namespace productos_grid
             
         private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3 formulario3 = new Form3(this);
-            formulario3.ShowDialog();
+            Form3 frmtercer = new Form3(this);
+            frmtercer.MdiParent = this;
+            frmtercer.Show();
         }
         public int obtener()
         {

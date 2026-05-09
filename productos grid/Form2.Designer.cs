@@ -36,30 +36,30 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(150, 56);
+            this.textBox1.Location = new System.Drawing.Point(22, 20);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(272, 22);
+            this.textBox1.Size = new System.Drawing.Size(197, 22);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(150, 110);
+            this.textBox2.Location = new System.Drawing.Point(22, 74);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(272, 22);
+            this.textBox2.Size = new System.Drawing.Size(197, 22);
             this.textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(150, 173);
+            this.textBox3.Location = new System.Drawing.Point(22, 137);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(272, 22);
+            this.textBox3.Size = new System.Drawing.Size(197, 22);
             this.textBox3.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(207, 269);
+            this.button1.Location = new System.Drawing.Point(56, 205);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 50);
+            this.button1.Size = new System.Drawing.Size(113, 50);
             this.button1.TabIndex = 3;
             this.button1.Text = "actualizar";
             this.button1.UseVisualStyleBackColor = true;
@@ -69,13 +69,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(602, 450);
+            this.ClientSize = new System.Drawing.Size(244, 287);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

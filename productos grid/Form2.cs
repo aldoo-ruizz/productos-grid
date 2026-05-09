@@ -46,6 +46,11 @@ namespace productos_grid
             constructor resitromodif = new constructor(idmodifica, textBox1.Text, textBox2.Text, textBox3.Text);
             objform1.actualizarregistro(resitromodif);
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
